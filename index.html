@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a92af3f990.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Shreyas </span> <br> from INDIA</h1>
+            </div>
+        </div>
+    </div>
+    <!----------------about--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A Highly motivated and detail-oriented person, I am currently pursuing B .Tech Degree in 
+                        Computer Science. My goal is to excel in a dynamic and demanding setting that offers 
+                        prospects for career growth and development. With patience, hard effort, and dedication, I 
+                        hope to succeed in this industry. I'm looking for a very fulfilling job where I can apply my 
+                        My goal is to excel in a dynamic and demanding setting that offers prospects for career 
+                        growth and development. With patience, hard effort, and dedication, I hope to succeed in this 
+                        industry. I'm looking for a very fulfilling job where I can apply my knowledge and abilities 
+                        to advance organizations and my self.knowledge and abilities to advance organizations and 
+                        myself.</p>
+
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Designing Web interaces</li>
+                                <li><span>Web API</span><br>Buildong application interaces</li>
+                                <li><span>Microsoft</span><br>Excell, PowerPoint, Word</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Jan2025-Apr2025</span><br>Designing Web Development Internship</li>
+                               
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021-2025</span><br>J D College of Engineering and Management </li>
+                                <li><span>2019-2021</span><br>St.Robin Jr.College</li>
+                               <li><span>2019</span><br>Blossom High School</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------------services--------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designing</h2>
+                <p>Web development services encompass a wide range of activities focused on building, maintaining, and evolving websites and web applications. These services are crucial for businesses and individuals looking to establish an online presence, engage with customers, and achieve their digital goals.<br>
+                    
+                    * Full-stack Development: This involves professionals who are proficient in both front-end and back-end development, capable of handling all aspects of a web project from the user interface to the server and database.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web API</h2>
+                <p>  A Web API is a software component that enables two otherwise unrelated applications to communicate with each other. It is a collection of communication conventions and subroutines used by various programs to communicate between them. Web APIs can use any kind of communication protocol and are not restricted like a web service is.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Microsoft</h2>
+                <p>Microsoft 365: A suite of productivity apps and services, including Word, Excel, PowerPoint, Outlook, and more.
+                   <br>
+                    Office 365: A cloud-based version of the Microsoft Office suite, which includes Word, Excel, PowerPoint, and Outlook.
+                    <br>
+                    Microsoft Power Apps: A low-code platform for building custom business apps.
+                   <br>
+                    Microsoft Power BI: A business analytics service that provides data visualization and business intelligence capabilities.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------portfolio-------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>
+                        The app connects you to the talented people around the world.
+                        Download it from Playstore.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>
+                        The app connects you to the talented people around the world.
+                        Download it from Playstore.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>
+                        The app connects you to the talented people around the world.
+                        Download it from Playstore.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<!----------------------ContCT----------------------->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> shreyk543@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 9637206202</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Shreyas Resume 00.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©️ Shreyas. Made with <i class="fa-solid fa-heart-pulse"></i> by Easy Tutorial</p>
+    </div>
+</div>
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontent = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tablink of tabcontent){
+                tablink.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxweRNTuTo-nSn4xjC5wIhUyqHOZL1DjTmpHlECErB7qV6tAhTBaILmSMvaF9AtWFHI/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+   
+</body>
+</html>
+
+
+
